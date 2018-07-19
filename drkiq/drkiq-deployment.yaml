@@ -24,7 +24,7 @@ spec:
         envFrom:
         - configMapRef:
             name: drkiq-config
-        image: eslam14/instabug_task:v1
+        image: alaaabdelkareem94/drkiq:v1
         name: drkiq
         ports:
         - containerPort: 8000
